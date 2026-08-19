@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="80" viewBox="0 0 320 80">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#0a0620"/>
+      <stop offset="100%" stop-color="#1a0a3e"/>
+    </linearGradient>
+  </defs>
+  <rect width="320" height="80" rx="12" fill="url(#bg)" stroke="#f59e0b" stroke-width="1.5"/>
+  <circle cx="30" cy="40" r="16" fill="none" stroke="#f59e0b" stroke-width="2"/>
+  <circle cx="30" cy="40" r="8" fill="#f59e0b" opacity="0.3"/>
+  <text x="58" y="28" font-family="system-ui, sans-serif" font-size="11" fill="#94a3b8" font-weight="500">AURORA CHANCE TONIGHT</text>
+  <text x="58" y="48" font-family="system-ui, sans-serif" font-size="16" fill="#e8eaf2" font-weight="700">Stockholm</text>
+  <text x="58" y="66" font-family="system-ui, sans-serif" font-size="10" fill="#f59e0b" font-weight="600">Moderate · Kp 2.0</text>
+  <text x="302" y="48" font-family="system-ui, sans-serif" font-size="22" fill="#f59e0b" font-weight="800" text-anchor="end">50%</text>
+  <text x="302" y="66" font-family="system-ui, sans-serif" font-size="8" fill="#64748b" text-anchor="end">flarient.com</text>
+</svg>

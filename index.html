@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flarient Aurora Location Badges</title>
+  <meta name="description" content="Personalized aurora chance badges for cities worldwide. Embed them on your website or profile.">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: system-ui, sans-serif; background: #05030f; color: #e8eaf2; min-height: 100vh; padding: 2rem; }
+    .container { max-width: 900px; margin: 0 auto; }
+    h1 { font-size: 1.75rem; margin-bottom: 0.5rem; }
+    .subtitle { color: #94a3b8; margin-bottom: 2rem; font-size: 0.95rem; }
+    .badge-card { background: rgba(255,255,255,0.03); border: 1px solid rgba(255,255,255,0.1); border-radius: 12px; padding: 1.5rem; margin-bottom: 1rem; display: flex; gap: 1.5rem; align-items: center; flex-wrap: wrap; }
+    .badge-info h3 { font-size: 1.1rem; margin-bottom: 0.25rem; }
+    .badge-info p { color: #94a3b8; font-size: 0.85rem; margin-bottom: 0.5rem; }
+    .badge-info code { font-size: 0.75rem; color: #6366f1; background: rgba(99,102,241,0.1); padding: 0.25rem 0.5rem; border-radius: 4px; word-break: break-all; }
+    .footer { margin-top: 3rem; padding-top: 2rem; border-top: 1px solid rgba(255,255,255,0.1); color: #64748b; font-size: 0.85rem; }
+    .footer a { color: #6366f1; text-decoration: none; }
+    @media (max-width: 640px) { .badge-card { flex-direction: column; align-items: flex-start; } }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Flarient Aurora Location Badges</h1>
+    <p class="subtitle">Personalized aurora chance badges for cities worldwide. Updated hourly with live NOAA data. Embed them anywhere.</p>
+    
+    <div class="badge-card">
+      <img src="badges/edinburgh.svg" alt="Aurora chance Edinburgh" width="320" height="80"/>
+      <div class="badge-info">
+        <h3>Edinburgh</h3>
+        <p>Aurora chance: <strong>30%</strong> · Kp 2.0</p>
+        <code>&lt;img src="https://flarientglobal.github.io/flarient-aurora-badges/badges/edinburgh.svg" alt="Aurora chance Edinburgh"&gt;</code>
+      </div>
+    </div>
+    <div class="badge-card">
+      <img src="badges/tromso.svg" alt="Aurora chance Tromsø" width="320" height="80"/>
+      <div class="badge-info">
+        <h3>Tromsø</h3>
+        <p>Aurora chance: <strong>70%</strong> · Kp 2.0</p>
+        <code>&lt;img src="https://flarientglobal.github.io/flarient-aurora-badges/badges/tromso.svg" alt="Aurora chance Tromsø"&gt;</code>
+      </div>
+    </div>
+    <div class="badge-card">
+      <img src="badges/reykjavik.svg" alt="Aurora chance Reykjavik" width="320" height="80"/>
+      <div class="badge-info">
+        <h3>Reykjavik</h3>
+        <p>Aurora chance: <strong>70%</strong> · Kp 2.0</p>
+        <code>&lt;img src="https://flarientglobal.github.io/flarient-aurora-badges/badges/reykjavik.svg" alt="Aurora chance Reykjavik"&gt;</code>
+      </div>
+    </div>
+    <div class="badge-card">
+      <img src="badges/london.svg" alt="Aurora chance London" width="320" height="80"/>
+      <div class="badge-info">
+        <h3>London</h3>
+        <p>Aurora chance: <strong>5%</strong> · Kp 2.0</p>
+        <code>&lt;img src="https://flarientglobal.github.io/flarient-aurora-badges/badges/london.svg" alt="Aurora chance London"&gt;</code>
+      </div>
+    </div>
+    <div class="badge-card">
+      <img src="badges/manchester.svg" alt="Aurora chance Manchester" width="320" height="80"/>
+      <div class="badge-info">
+        <h3>Manchester</h3>
+        <p>Aurora chance: <strong>15%</strong> · Kp 2.0</p>
+        <code>&lt;img src="https://flarientglobal.github.io/flarient-aurora-badges/badges/manchester.svg" alt="Aurora chance Manchester"&gt;</code>
+      </div>
+    </div>
+    <div class="badge-card">
+      <img src="badges/glasgow.svg" alt="Aurora chance Glasgow" width="320" height="80"/>
+      <div class="badge-info">
+        <h3>Glasgow</h3>
+        <p>Aurora chance: <strong>30%</strong> · Kp 2.0</p>
+        <code>&lt;img src="https://flarientglobal.github.io/flarient-aurora-badges/badges/glasgow.svg" alt="Aurora chance Glasgow"&gt;</code>
+      </div>
+    </div>
+    <div class="badge-card">
+      <img src="badges/belfast.svg" alt="Aurora chance Belfast" width="320" height="80"/>
+      <div class="badge-info">
+        <h3>Belfast</h3>
+        <p>Aurora chance: <strong>15%</strong> · Kp 2.0</p>
+        <code>&lt;img src="https://flarientglobal.github.io/flarient-aurora-badges/badges/belfast.svg" alt="Aurora chance Belfast"&gt;</code>
+      </div>
+    </div>
+    <div class="badge-card">
+      <img src="badges/dublin.svg" alt="Aurora chance Dublin" width="320" height="80"/>
+      <div class="badge-info">
+        <h3>Dublin</h3>
+        <p>Aurora chance: <strong>15%</strong> · Kp 2.0</p>
+        <code>&lt;img src="https://flarientglobal.github.io/flarient-aurora-badges/badges/dublin.svg" alt="Aurora chance Dublin"&gt;</code>
+      </div>
+    </div>
+    <div class="badge-card">
+      <img src="badges/oslo.svg" alt="Aurora chance Oslo" width="320" height="80"/>
+      <div class="badge-info">
+        <h3>Oslo</h3>
+        <p>Aurora chance: <strong>50%</strong> · Kp 2.0</p>
+        <code>&lt;img src="https://flarientglobal.github.io/flarient-aurora-badges/badges/oslo.svg" alt="Aurora chance Oslo"&gt;</code>
+      </div>
+    </div>
+    <div class="badge-card">
+      <img src="badges/stockholm.svg" alt="Aurora chance Stockholm" width="320" height="80"/>
+      <div class="badge-info">
+        <h3>Stockholm</h3>
+        <p>Aurora chance: <strong>50%</strong> · Kp 2.0</p>
+        <code>&lt;img src="https://flarientglobal.github.io/flarient-aurora-badges/badges/stockholm.svg" alt="Aurora chance Stockholm"&gt;</code>
+      </div>
+    </div>
+    <div class="badge-card">
+      <img src="badges/helsinki.svg" alt="Aurora chance Helsinki" width="320" height="80"/>
+      <div class="badge-info">
+        <h3>Helsinki</h3>
+        <p>Aurora chance: <strong>50%</strong> · Kp 2.0</p>
+        <code>&lt;img src="https://flarientglobal.github.io/flarient-aurora-badges/badges/helsinki.svg" alt="Aurora chance Helsinki"&gt;</code>
+      </div>
+    </div>
+    <div class="badge-card">
+      <img src="badges/copenhagen.svg" alt="Aurora chance Copenhagen" width="320" height="80"/>
+      <div class="badge-info">
+        <h3>Copenhagen</h3>
+        <p>Aurora chance: <strong>30%</strong> · Kp 2.0</p>
+        <code>&lt;img src="https://flarientglobal.github.io/flarient-aurora-badges/badges/copenhagen.svg" alt="Aurora chance Copenhagen"&gt;</code>
+      </div>
+    </div>
+    <div class="badge-card">
+      <img src="badges/anchorage.svg" alt="Aurora chance Anchorage" width="320" height="80"/>
+      <div class="badge-info">
+        <h3>Anchorage</h3>
+        <p>Aurora chance: <strong>50%</strong> · Kp 2.0</p>
+        <code>&lt;img src="https://flarientglobal.github.io/flarient-aurora-badges/badges/anchorage.svg" alt="Aurora chance Anchorage"&gt;</code>
+      </div>
+    </div>
+    <div class="badge-card">
+      <img src="badges/fairbanks.svg" alt="Aurora chance Fairbanks" width="320" height="80"/>
+      <div class="badge-info">
+        <h3>Fairbanks</h3>
+        <p>Aurora chance: <strong>70%</strong> · Kp 2.0</p>
+        <code>&lt;img src="https://flarientglobal.github.io/flarient-aurora-badges/badges/fairbanks.svg" alt="Aurora chance Fairbanks"&gt;</code>
+      </div>
+    </div>
+    <div class="badge-card">
+      <img src="badges/seattle.svg" alt="Aurora chance Seattle" width="320" height="80"/>
+      <div class="badge-info">
+        <h3>Seattle</h3>
+        <p>Aurora chance: <strong>5%</strong> · Kp 2.0</p>
+        <code>&lt;img src="https://flarientglobal.github.io/flarient-aurora-badges/badges/seattle.svg" alt="Aurora chance Seattle"&gt;</code>
+      </div>
+    </div>
+    <div class="badge-card">
+      <img src="badges/minneapolis.svg" alt="Aurora chance Minneapolis" width="320" height="80"/>
+      <div class="badge-info">
+        <h3>Minneapolis</h3>
+        <p>Aurora chance: <strong>0%</strong> · Kp 2.0</p>
+        <code>&lt;img src="https://flarientglobal.github.io/flarient-aurora-badges/badges/minneapolis.svg" alt="Aurora chance Minneapolis"&gt;</code>
+      </div>
+    </div>
+    <div class="badge-card">
+      <img src="badges/toronto.svg" alt="Aurora chance Toronto" width="320" height="80"/>
+      <div class="badge-info">
+        <h3>Toronto</h3>
+        <p>Aurora chance: <strong>0%</strong> · Kp 2.0</p>
+        <code>&lt;img src="https://flarientglobal.github.io/flarient-aurora-badges/badges/toronto.svg" alt="Aurora chance Toronto"&gt;</code>
+      </div>
+    </div>
+    <div class="badge-card">
+      <img src="badges/calgary.svg" alt="Aurora chance Calgary" width="320" height="80"/>
+      <div class="badge-info">
+        <h3>Calgary</h3>
+        <p>Aurora chance: <strong>5%</strong> · Kp 2.0</p>
+        <code>&lt;img src="https://flarientglobal.github.io/flarient-aurora-badges/badges/calgary.svg" alt="Aurora chance Calgary"&gt;</code>
+      </div>
+    </div>
+    <div class="badge-card">
+      <img src="badges/edmonton.svg" alt="Aurora chance Edmonton" width="320" height="80"/>
+      <div class="badge-info">
+        <h3>Edmonton</h3>
+        <p>Aurora chance: <strong>15%</strong> · Kp 2.0</p>
+        <code>&lt;img src="https://flarientglobal.github.io/flarient-aurora-badges/badges/edmonton.svg" alt="Aurora chance Edmonton"&gt;</code>
+      </div>
+    </div>
+    <div class="badge-card">
+      <img src="badges/yellowknife.svg" alt="Aurora chance Yellowknife" width="320" height="80"/>
+      <div class="badge-info">
+        <h3>Yellowknife</h3>
+        <p>Aurora chance: <strong>70%</strong> · Kp 2.0</p>
+        <code>&lt;img src="https://flarientglobal.github.io/flarient-aurora-badges/badges/yellowknife.svg" alt="Aurora chance Yellowknife"&gt;</code>
+      </div>
+    </div>
+    <div class="badge-card">
+      <img src="badges/berlin.svg" alt="Aurora chance Berlin" width="320" height="80"/>
+      <div class="badge-info">
+        <h3>Berlin</h3>
+        <p>Aurora chance: <strong>15%</strong> · Kp 2.0</p>
+        <code>&lt;img src="https://flarientglobal.github.io/flarient-aurora-badges/badges/berlin.svg" alt="Aurora chance Berlin"&gt;</code>
+      </div>
+    </div>
+    <div class="badge-card">
+      <img src="badges/amsterdam.svg" alt="Aurora chance Amsterdam" width="320" height="80"/>
+      <div class="badge-info">
+        <h3>Amsterdam</h3>
+        <p>Aurora chance: <strong>15%</strong> · Kp 2.0</p>
+        <code>&lt;img src="https://flarientglobal.github.io/flarient-aurora-badges/badges/amsterdam.svg" alt="Aurora chance Amsterdam"&gt;</code>
+      </div>
+    </div>
+    <div class="badge-card">
+      <img src="badges/paris.svg" alt="Aurora chance Paris" width="320" height="80"/>
+      <div class="badge-info">
+        <h3>Paris</h3>
+        <p>Aurora chance: <strong>5%</strong> · Kp 2.0</p>
+        <code>&lt;img src="https://flarientglobal.github.io/flarient-aurora-badges/badges/paris.svg" alt="Aurora chance Paris"&gt;</code>
+      </div>
+    </div>
+    <div class="badge-card">
+      <img src="badges/new-york.svg" alt="Aurora chance New York" width="320" height="80"/>
+      <div class="badge-info">
+        <h3>New York</h3>
+        <p>Aurora chance: <strong>0%</strong> · Kp 2.0</p>
+        <code>&lt;img src="https://flarientglobal.github.io/flarient-aurora-badges/badges/new-york.svg" alt="Aurora chance New York"&gt;</code>
+      </div>
+    </div>
+    <div class="badge-card">
+      <img src="badges/boston.svg" alt="Aurora chance Boston" width="320" height="80"/>
+      <div class="badge-info">
+        <h3>Boston</h3>
+        <p>Aurora chance: <strong>0%</strong> · Kp 2.0</p>
+        <code>&lt;img src="https://flarientglobal.github.io/flarient-aurora-badges/badges/boston.svg" alt="Aurora chance Boston"&gt;</code>
+      </div>
+    </div>
+    <div class="badge-card">
+      <img src="badges/chicago.svg" alt="Aurora chance Chicago" width="320" height="80"/>
+      <div class="badge-info">
+        <h3>Chicago</h3>
+        <p>Aurora chance: <strong>0%</strong> · Kp 2.0</p>
+        <code>&lt;img src="https://flarientglobal.github.io/flarient-aurora-badges/badges/chicago.svg" alt="Aurora chance Chicago"&gt;</code>
+      </div>
+    </div>
+    <div class="badge-card">
+      <img src="badges/dakar.svg" alt="Aurora chance Dakar" width="320" height="80"/>
+      <div class="badge-info">
+        <h3>Dakar</h3>
+        <p>Aurora chance: <strong>0%</strong> · Kp 2.0</p>
+        <code>&lt;img src="https://flarientglobal.github.io/flarient-aurora-badges/badges/dakar.svg" alt="Aurora chance Dakar"&gt;</code>
+      </div>
+    </div>
+    <div class="badge-card">
+      <img src="badges/cape-town.svg" alt="Aurora chance Cape Town" width="320" height="80"/>
+      <div class="badge-info">
+        <h3>Cape Town</h3>
+        <p>Aurora chance: <strong>0%</strong> · Kp 2.0</p>
+        <code>&lt;img src="https://flarientglobal.github.io/flarient-aurora-badges/badges/cape-town.svg" alt="Aurora chance Cape Town"&gt;</code>
+      </div>
+    </div>
+    <div class="badge-card">
+      <img src="badges/melbourne.svg" alt="Aurora chance Melbourne" width="320" height="80"/>
+      <div class="badge-info">
+        <h3>Melbourne</h3>
+        <p>Aurora chance: <strong>0%</strong> · Kp 2.0</p>
+        <code>&lt;img src="https://flarientglobal.github.io/flarient-aurora-badges/badges/melbourne.svg" alt="Aurora chance Melbourne"&gt;</code>
+      </div>
+    </div>
+    <div class="badge-card">
+      <img src="badges/christchurch.svg" alt="Aurora chance Christchurch" width="320" height="80"/>
+      <div class="badge-info">
+        <h3>Christchurch</h3>
+        <p>Aurora chance: <strong>0%</strong> · Kp 2.0</p>
+        <code>&lt;img src="https://flarientglobal.github.io/flarient-aurora-badges/badges/christchurch.svg" alt="Aurora chance Christchurch"&gt;</code>
+      </div>
+    </div>
+    <div class="badge-card">
+      <img src="badges/hobart.svg" alt="Aurora chance Hobart" width="320" height="80"/>
+      <div class="badge-info">
+        <h3>Hobart</h3>
+        <p>Aurora chance: <strong>0%</strong> · Kp 2.0</p>
+        <code>&lt;img src="https://flarientglobal.github.io/flarient-aurora-badges/badges/hobart.svg" alt="Aurora chance Hobart"&gt;</code>
+      </div>
+    </div>
+    <div class="footer">
+      <p>Powered by <a href="https://flarient.com">Flarient</a> — the space weather intelligence platform.</p>
+      <p>Data: NOAA SWPC · Updated: 2026-08-19 09:06 UTC</p>
+    </div>
+  </div>
+</body>
+</html>

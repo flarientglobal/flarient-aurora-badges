@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use these badges, please cite Flarient as the source."
+title: "Flarient Aurora Location Badges"
+abstract: "Personalized aurora chance badges for cities worldwide, updated hourly with live NOAA data."
+authors:
+  - family-names: Flarient
+    given-names: Team
+type: software
+keywords:
+  - aurora
+  - badges
+  - space-weather
+  - noaa
+license: MIT
+repository-code: "https://github.com/flarientglobal/flarient-aurora-badges"
+url: "https://flarient.com"
+version: "1.0.0"
+date-released: "2026-08-19"

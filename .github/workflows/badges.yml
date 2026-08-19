@@ -1,0 +1,40 @@
+name: Regenerate Aurora Badges
+
+on:
+  schedule:
+    - cron: '0 * * * *'  # Hourly
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  regenerate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Generate badges
+        env:
+          FLARIENT_API_URL: ${{ secrets.FLARIENT_API_URL }}
+          GITHUB_WORKSPACE: ${{ github.workspace }}
+        run: python badges.py
+
+      - name: Commit and push
+        run: |
+          git config user.name "Flarient Badge Bot"
+          git config user.email "bot@flarient.com"
+          git add badges/ index.html
+          git diff --cached --quiet || git commit -m "Aurora badges updated $(date -u +%Y-%m-%d_%H:%M)"
+          git push || echo "Nothing to push"
